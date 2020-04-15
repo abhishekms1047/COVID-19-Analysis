@@ -20,10 +20,6 @@ Then our team identified each time spot for the change of social distancing stat
 Here is an overview of our US state information dataset:
 
 ## Data Visualization
-Here are our data visualizations about identification of what factors can affect the infection rate and Global Health Assessment Quality (HAQ) Index.
-
-Factors for Infection rate: [Data viz for infection rate](https://public.tableau.com/profile/mandy.gu#!/vizhome/COVID-19inUS_15869448749500/Identifyfactorsthatwillaffectinfectionrate)
-
-HAQ: [Data viz for HAQ comparison](https://public.tableau.com/profile/mandy.gu#!/vizhome/HAQ/Healthofsixmaincountries)
+Here are our data visualizations about identification of what factors can affect the infection rate and Global Health Assessment Quality (HAQ) Index. [Data viz for infection rate](https://public.tableau.com/profile/mandy.gu#!/vizhome/COVID-19inUS_15869448749500/Identifyfactorsthatwillaffectinfectionrate) & [Data viz for HAQ comparison](https://public.tableau.com/profile/mandy.gu#!/vizhome/HAQ/Healthofsixmaincountries)
 
 Here is the codes for the visualizations we made using Python.
