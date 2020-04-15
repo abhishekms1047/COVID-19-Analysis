@@ -54,7 +54,7 @@ Our team has built two linear regression models to predict infection rate and de
 
 The independent variables for both models are standarized index about education, medical resource, public transportation, social distancing, aging and population density.
 ### Modeling results
-![Model Features Coefficients and P-value](https://github.com/Mandy-Gu/COVID-19-Analysis/blob/master/model_feature_coefficients.png?raw=true)
+![Model Features Coefficients and P-value](https://github.com/Mandy-Gu/COVID-19-Analysis/blob/master/feature_coefficients.png?raw=true)
 From the model results, we have identified three factors, aging index, gathering ban(one index for social distancing) and education level, that have relatively high coefficient and are statically significant.
 ## Recommendations and Insights
 Our team found that stricter gathering ban policy would effectively lower the infection rate. Meanwhile, the more population is occupied by elder people, the higher the infection rate will be. This is reasonable because it is proved that old people are more likely to be infected.
