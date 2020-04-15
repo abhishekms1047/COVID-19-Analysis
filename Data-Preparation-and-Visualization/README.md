@@ -18,7 +18,7 @@ First, we have collected information from various sources and aggregate those in
 Then our team identified each time spot for the change of social distancing status in a state and split the whole time period based on these time spots. In this way, we can better see the impact of social distancing status on the spread of COVID-19 virus.
 
 Here is an overview of our US state information dataset:
-![US state dataset](https://github.com/Mandy-Gu/COVID-19-Analysis/blob/master/Data-Preparation-and-Visualization/model_data_overview.png?raw=true)
+![US state dataset](https://github.com/Mandy-Gu/COVID-19-Analysis/blob/master/Data-Preparation-and-Visualization/US_state_data_overview.png?raw=true)
 
 ## Data Visualization
 Here are our data visualizations about identification of what factors can affect the infection rate and Global Health Assessment Quality (HAQ) Index. [Data viz for infection rate](https://public.tableau.com/profile/mandy.gu#!/vizhome/COVID-19inUS_15869448749500/Identifyfactorsthatwillaffectinfectionrate) & [Data viz for HAQ comparison](https://public.tableau.com/profile/mandy.gu#!/vizhome/HAQ/Healthofsixmaincountries)
