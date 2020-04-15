@@ -32,7 +32,7 @@ The raw data we collected for analysis are gathered from the following sources:
 * Education index data: Mannually scrap information from [USA.com](http://www.usa.com/rank/us--average-education-index--state-rank.htm)
 * Social distancing index: Get data file from [KhakiEconomics](https://github.com/khakieconomics/covid_data)
 ### Final dataset description
-Our team has generater two final datasets.
+Our team has generated two final datasets.
 
 The first one contains all the information, such as medical resource, education, etc, information for states in US.
 
@@ -52,7 +52,7 @@ As we can see from the above graph, CA starts social distancing before things ge
 After gaining some insights from our visualizations and analysis, we applied machine learning techniques to further quantitatively analyze the impact of those factors, such as social distancing, medical resource, etc.
 
 ### Modeling process
-Our team has built two linear regression models to predict infection rate and death rate separately.
+Our team has built a linear regression model to try to explain what factors can lead to infection rate.
 
 The independent variables for both models are standarized index about education, medical resource, public transportation, social distancing, aging and population density.
 ### Modeling results
@@ -61,6 +61,6 @@ From the model results, we have identified three factors, aging index, gathering
 ## Recommendations and Insights
 Our team found that stricter gathering ban policy would effectively lower the infection rate. Meanwhile, the more population is occupied by elder people, the higher the infection rate will be. This is reasonable because it is proved that old people are more likely to be infected.
 
-Surprisingly, we also found that there's a strong correlation education level and infection rate. Regions with high education level tend to have lower infection rate.
+Surprisingly, we also found that there's a strong correlation between education level and infection rate. Regions with high education level tend to have a lower infection rate.
 
 Thus, we recommend that countries or regions where the pandemic is not particularly serious should also release stricter policy about social gathering. Besides, they should also pay more attention to regions with lower education level and give more resources to regions with more elders.
