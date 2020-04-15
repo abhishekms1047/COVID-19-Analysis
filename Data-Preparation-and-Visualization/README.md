@@ -13,9 +13,11 @@ Here is an overview of our COVID-19 cases dataset:
 
 
 ### US state information dataset
-We have collected information from various sources and aggregate those information at a state level to generate this dataset.
+First, we have collected information from various sources and aggregate those information at a state level to generate this dataset.
+
+Then our team identified each time spot for the change of social distancing status in a state and split the whole time period based on these time spots. In this way, we can better see the impact of social distancing status on the spread of COVID-19 virus.
 
 Here is an overview of our US state information dataset:
 
 ## Data Visualization
-Here is the codes for the visualizations we made using Python 
+Here is the codes for the visualizations we made using Python.
