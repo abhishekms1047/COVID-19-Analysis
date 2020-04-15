@@ -1,9 +1,10 @@
 
 # Modeling
 Our team has decided to build linear regression model bacause of its great interpretability.
-## Modeling Data 
+## Feature Engineering
 
-We have standardized the data for better model-performance.
+Our team has divided the whole time period into several period based on the change of social distancing status (when this status changes, we see it as a new time period). And we choose rate as dependent variable instead of case number because rate is more comparable between different states since the total confirmed and death cases may vary a lot from state to state.
+Then, we have standardized the data before modeling for better model-performance.
 
 ## Modeling process
 We have built two linear regression models to predict infection rate and death rate separately using the independent variables regarding education, medical resource, public transportation, social distancing, aging and population density.
