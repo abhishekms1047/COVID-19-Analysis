@@ -12,8 +12,10 @@ To further verify our findings from a more comprehensive perspective, we bulit l
 In the end, we reach the conclusion that gathering ban, education level, aging level in one area may have great impact on the spread of COVID-19 virus and made corresponding recommendations based on the results.
 
 ## Data Preparation
+Our team has obtained most of the data from public sources and conduct some further processing and cleanning so that they would be proper for our analysis and modeling.
+
 ### Data Source
-The data we used for analysis are gathering from the following sources:
+The raw data we collected for analysis are gathered from the following sources:
 
 * COVID-19 data: Built a pipeline to get and clean the latest data at state level from [CSSE daily report](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_daily_reports).
 
@@ -54,7 +56,7 @@ Our team has built two linear regression models to predict infection rate and de
 
 The independent variables for both models are standarized index about education, medical resource, public transportation, social distancing, aging and population density.
 ### Modeling results
-![Model Features Coefficients and P-value](https://github.com/Mandy-Gu/COVID-19-Analysis/blob/master/model_feature_coef.png?raw=true)
+![Model Features Coefficients and P-value](https://github.com/Mandy-Gu/COVID-19-Analysis/blob/master/feature_coefficients.png?raw=true)
 From the model results, we have identified three factors, aging index, gathering ban(one index for social distancing) and education level, that have relatively high coefficient and are statically significant.
 ## Recommendations and Insights
 Our team found that stricter gathering ban policy would effectively lower the infection rate. Meanwhile, the more population is occupied by elder people, the higher the infection rate will be. This is reasonable because it is proved that old people are more likely to be infected.
