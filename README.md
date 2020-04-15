@@ -41,7 +41,7 @@ The second one contains the latest COVID19 data,including confirmed, death, reco
 ![COVID-19 situations in US](https://github.com/Mandy-Gu/COVID-19-Analysis/blob/master/US_case_visualization.png?raw=true)
 From the above graphs, we can see that the COVID-19 situations is most serious in California in west coase and in New York in east coast. So we have picked these two states for deeper visualizations and analysis.
 ### COVID-19 trends in California and New York
-![COVID-19 trends in CA and NY](https://github.com/lush9516/COVID-19-Analysis/blob/master/COVID-19-trends-for-NY-and-CA.png?raw=true)
+![COVID-19 trends in CA and NY](https://github.com/Mandy-Gu/COVID-19-Analysis/blob/master/COVID-19-trends-for-NY-and-CA.png?raw=true)
 As we can see from the above graph, CA starts social distancing before things get worse and the new confirmed cases stay at a stable level while NY didn't start social distancing until there are quite a lot confirmed cases, which results in a different situations compared to CA.
 
 ## Modeling
@@ -52,7 +52,7 @@ Our team has built two linear regression models to predict infection rate and de
 
 The independent variables for both models are standarized index about education, medical resource, public transportation, social distancing, aging and population density.
 ### Modeling results
-![Model Features Coefficients and P-value](https://github.com/lush9516/COVID-19-Analysis/blob/master/model_feature_coef.png?raw=true)
+![Model Features Coefficients and P-value](https://github.com/Mandy-Gu/COVID-19-Analysis/blob/master/model_feature_coef.png?raw=true)
 From the model results, we have identified three factors, aging index, gathering ban(one index for social distancing) and education level, that have relatively high coefficient and are statically significant.
 ## Recommendations and Insights
 Our team found that stricter gathering ban policy would effectively lower the infection rate especially in the early stage when the virus is not eidely spread. Meanwhile, the more population is occupied by elder people, the higher the infection rate will be. This is reasonable because it is proved that old people are more likely to be infected.
