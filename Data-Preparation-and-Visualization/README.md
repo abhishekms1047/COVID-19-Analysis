@@ -21,6 +21,6 @@ Here is an overview of our US state information dataset:
 ![US state dataset](https://github.com/Mandy-Gu/COVID-19-Analysis/blob/master/Data-Preparation-and-Visualization/US_state_data_overview.png?raw=true)
 
 ## Data Visualization
-Here are our data visualizations about identification of what factors can affect the infection rate and Global Health Assessment Quality (HAQ) Index. [Data viz for infection rate](https://public.tableau.com/profile/mandy.gu#!/vizhome/COVID-19inUS_15869448749500/Identifyfactorsthatwillaffectinfectionrate) & [Data viz for HAQ comparison](https://public.tableau.com/profile/mandy.gu#!/vizhome/HAQ/Healthofsixmaincountries)
+Here are our data visualizations about identification of what factors can affect the infection rate and the comparison of Global Health Assessment Quality (HAQ) Index. [Data viz for infection rate](https://public.tableau.com/profile/mandy.gu#!/vizhome/COVID-19inUS_15869448749500/Identifyfactorsthatwillaffectinfectionrate) & [Data viz for HAQ comparison](https://public.tableau.com/profile/mandy.gu#!/vizhome/HAQ/Healthofsixmaincountries)
 
 Here is the codes for the visualizations we made using Python.
