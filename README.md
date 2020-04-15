@@ -31,10 +31,10 @@ The raw data we collected for analysis are gathered from the following sources:
 
 * Education index data: Mannually scrap information from [USA.com](http://www.usa.com/rank/us--average-education-index--state-rank.htm)
 * Social distancing index: Get data file from [KhakiEconomics](https://github.com/khakieconomics/covid_data)
-### Final dataset overview
+### Final dataset description
 Our team has generater two final datasets.
 
-The first one contains all the indices and demographic information about states in US.
+The first one contains all the information, such as medical resource, education, etc, information for states in US.
 
 The second one contains the latest COVID19 data,including confirmed, death, recovered cases, for each state in US.
 
