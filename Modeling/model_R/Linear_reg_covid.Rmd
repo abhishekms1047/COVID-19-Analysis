@@ -14,11 +14,6 @@ library(car)
 ```
 
 ```{r}
-library(standardize)
-```
-
-
-```{r}
 data = read.csv("model_data_final.csv")
 ```
 
@@ -29,7 +24,7 @@ data = data[-c(1,2,4,9,10,12,13)]
 
 ### Standardize data
 ```{r}
-data <- as.data.frame(scale(data))
+# data <- as.data.frame(scale(data))
 ```
 
 ##### First run a regression model with all variables for a quick check for multicollinearity
@@ -46,9 +41,9 @@ summary(model)
 car::vif(model)
 ```
 
-Drop pop_density_sqkm.
+Drop airport_density_sqkm
 
-### Rerun model after fropping pop_density_sqkm
+### Rerun model after fropping airport_density_sqkm
 ```{r}
 model1 <- lm(infection_rate ~.-airport_density_sqkm, data = data)
 ```
@@ -65,6 +60,19 @@ summary(model1)
 
 ##### Run Stepwise Regression
 ```{r}
-olsrr::ols_step_both_p(model1)
+k <- olsrr::ols_step_forward_p(model1, details = TRUE)
 ```
+
+```{r}
+k$model
+```
+
+```{r}
+model_final <- lm(infection_rate ~ GS+aging+pop_density_sqkm+education_index+avg_principle_cost+PC+surgical_quality, data = data)
+```
+
+```{r}
+summary(model_final)
+```
+
 
