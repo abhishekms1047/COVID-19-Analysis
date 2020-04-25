@@ -1,0 +1,70 @@
+---
+title: "Linear_reg_covid"
+author: "Yuting Li"
+date: "4/19/2020"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(car)
+```
+
+```{r}
+library(standardize)
+```
+
+
+```{r}
+data = read.csv("model_data_final.csv")
+```
+
+### Drop unnecessary columns
+```{r}
+data = data[-c(1,2,4,9,10,12,13)]
+```
+
+### Standardize data
+```{r}
+data <- as.data.frame(scale(data))
+```
+
+##### First run a regression model with all variables for a quick check for multicollinearity
+```{r}
+model <- lm(infection_rate ~ ., data = data)
+```
+
+```{r}
+summary(model)
+```
+
+### check multicolinearity
+```{r}
+car::vif(model)
+```
+
+Drop pop_density_sqkm.
+
+### Rerun model after fropping pop_density_sqkm
+```{r}
+model1 <- lm(infection_rate ~.-airport_density_sqkm, data = data)
+```
+
+```{r}
+car::vif(model1)
+```
+
+All the VIF values are less than 10, so there's no evidence of strong multicollinearity in the model.
+
+```{r}
+summary(model1)
+```
+
+##### Run Stepwise Regression
+```{r}
+olsrr::ols_step_both_p(model1)
+```
+
