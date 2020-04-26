@@ -55,12 +55,6 @@ After gaining some insights from our visualizations and analysis, we applied mac
 Our team has built a linear regression model to try to explain what factors can lead to infection rate.
 
 The independent variables for both models are standarized index about education, medical resource, public transportation, social distancing, aging and population density.
+
 ### Modeling results
-![Model Features Coefficients and P-value](https://github.com/Mandy-Gu/COVID-19-Analysis/blob/master/feature_coefficients.png?raw=true)
-From the model results, we have identified three factors, aging index, gathering ban(one index for social distancing) and education level, that have relatively high coefficient and are statically significant.
-## Recommendations and Insights
-Our team found that stricter gathering ban policy would effectively lower the infection rate. Meanwhile, the more population is occupied by elder people, the higher the infection rate will be. This is reasonable because it is proved that old people are more likely to be infected.
-
-Surprisingly, we also found that there's a strong correlation between education level and infection rate. Regions with high education level tend to have a lower infection rate.
-
-Thus, we recommend that countries or regions where the pandemic is not particularly serious should also release stricter policy about social gathering. Besides, they should also pay more attention to regions with lower education level and give more resources to regions with more elders.
+Population aging and surprisingly education index are the most influential factors in the COVID-19 spread in the U.S. Both these variables have statistically significant p-values and big coefficients.
